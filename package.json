@@ -1,0 +1,43 @@
+{
+  "name": "github-fabulous",
+  "version": "0.1.0",
+  "description": "Fab-ulous buttons for your GitHub repo or account",
+  "main": "./github-fabulous.js",
+  "scripts": {
+    "build": "gulp && webpack",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manzinello/github-fabulous.git"
+  },
+  "module": "./github-fabulous.js",
+  "keywords": [
+    "github"
+  ],
+  "author": "Matteo Manzinello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manzinello/github-fabulous/issues"
+  },
+  "homepage": "https://github.com/manzinello/github-fabulous#readme",
+  "browserslist": "cover 99.5%",
+  "devDependencies": {
+    "@babel/cli": "^7.6.3",
+    "@babel/core": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-flow": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "jest": "^24.9.0",
+    "node-sass": "^4.12.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
