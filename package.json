@@ -2,16 +2,16 @@
   "name": "github-fabulous",
   "version": "0.1.0",
   "description": "Fab-ulous buttons for your GitHub repo or account",
-  "main": "./github-fabulous.js",
+  "main": "./dist/github-fabulous.min.css",
   "scripts": {
-    "build": "gulp && webpack",
+    "build": "gulp",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/manzinello/github-fabulous.git"
   },
-  "module": "./github-fabulous.js",
+  "module": "./dist/github-fabulous.min.css",
   "keywords": [
     "github"
   ],
