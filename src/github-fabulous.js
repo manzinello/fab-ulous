@@ -8,4 +8,6 @@ const gfCSSContent = document.createTextNode(`GITHUB_FABULOUS_STYLE`);
 maigfCSSlgoCSS.appendChild(gfCSSContent);
 document.head.appendChild(gfCSS);
 
+// TODO
+
 console.log("Fabulous!");
