@@ -1,8 +1,18 @@
+$teal: #38b2ac;
+
 #github-fabulous {
   position: fixed;
   right: 24px;
   bottom: 24px;
-  background: blue;
+  background: $teal;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  border-radius: 9999px;
   color: white;
-  padding: 20px;
+  padding: 10px;
+  &:hover {
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+      0 18px 36px -18px rgba(0, 0, 0, 0.3),
+      0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
 }
