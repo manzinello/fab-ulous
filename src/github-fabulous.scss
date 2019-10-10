@@ -97,4 +97,16 @@ $pink: #ed64a6; /* #ed64a6 */
       box-shadow: 0 7px 20px rgba(237, 100, 166, 0.85);
     }
   }
+  &.top {
+    top: 0;
+  }
+  &.bottom {
+    bottom: 0;
+  }
+  &.left {
+    left: 0;
+  }
+  &.right {
+    right: 0;
+  }
 }
