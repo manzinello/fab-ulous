@@ -1,6 +1,6 @@
-![GitHub Fabulous](http://url/to/img.png)
+![GitHub Fabulous](./assets/github-fabulous.png)
 
-# ⭕️ GitHub Fab-ulous
+# ⭕️ Fab-ulous (GitHub)
 
 Fab-ulous colorful buttons for your GitHub repo or account
 
