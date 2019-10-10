@@ -31,7 +31,8 @@
   -webkit-border-radius: 9999px;
      -moz-border-radius: 9999px;
           border-radius: 9999px;
-  color: white; }
+  color: white;
+  outline: none; }
   #github-fabulous:hover {
     -webkit-box-shadow: 0 7px 20px rgba(26, 32, 44, 0.85);
        -moz-box-shadow: 0 7px 20px rgba(26, 32, 44, 0.85);

@@ -24,6 +24,7 @@ $pink: #ed64a6; /* #ed64a6 */
   box-shadow: 0 3px 10px rgba(26, 32, 44, 0.5);
   border-radius: 9999px;
   color: white;
+  outline: none;
   &:hover {
     box-shadow: 0 7px 20px rgba(26, 32, 44, 0.85);
   }
