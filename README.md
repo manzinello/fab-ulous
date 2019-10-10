@@ -13,3 +13,9 @@ Import CSS and
 ```
 <a id="github-fabulous" href="[repo_url]">[optional text]</a>
 ```
+
+## Customization
+
+### Colors
+
+Available colors:

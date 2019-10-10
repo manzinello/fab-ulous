@@ -110,4 +110,10 @@ $pink: #ed64a6; /* #ed64a6 */
   &.right {
     right: 24px;
   }
+  &.no-shadow {
+    box-shadow: none;
+    &:hover {
+      box-shadow: none;
+    }
+  }
 }
