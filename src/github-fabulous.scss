@@ -13,9 +13,9 @@ $pink: #ed64a6; /* #ed64a6 */
   position: fixed;
   right: 24px;
   bottom: 24px;
-  width: 30px;
-  height: 30px;
-  padding: 4px;
+  width: 48px;
+  height: 48px;
+  padding: 8px;
   background: $green;
   content: url("../assets/github.svg");
   box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
@@ -26,5 +26,8 @@ $pink: #ed64a6; /* #ed64a6 */
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
       0 18px 36px -18px rgba(0, 0, 0, 0.3),
       0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
+  .teal {
+    background: $teal;
   }
 }
