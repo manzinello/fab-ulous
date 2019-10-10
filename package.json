@@ -1,5 +1,5 @@
 {
-  "name": "@manzinello/fab-ulous",
+  "name": "@fab-ulous/github",
   "version": "0.1.2",
   "description": "Fab-ulous colorful buttons (for your GitHub repo or account)",
   "main": "./dist/github.min.css",
