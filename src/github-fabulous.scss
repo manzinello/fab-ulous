@@ -24,36 +24,76 @@ $pink: #ed64a6; /* #ed64a6 */
   border-radius: 9999px;
   color: white;
   &:hover {
-    box-shadow: 0 7px 20px rgba(26, 32, 44, 0.4);
+    box-shadow: 0 7px 20px rgba(26, 32, 44, 0.6);
   }
-  .gray {
+  &.gray {
     background: $gray;
+    box-shadow: 0 7px 20px rgba(160, 174, 192, 0.2);
+    &:hover {
+      box-shadow: 0 7px 20px rgba(160, 174, 192, 0.6);
+    }
   }
-  .red {
+  &.red {
     background: $red;
+    box-shadow: 0 7px 20px rgba(245, 101, 101, 0.2);
+    &:hover {
+      box-shadow: 0 7px 20px rgba(245, 101, 101, 0.6);
+    }
   }
-  .orange {
+  &.orange {
     background: $orange;
+    box-shadow: 0 7px 20px rgba(237, 137, 54, 0.2);
+    &:hover {
+      box-shadow: 0 7px 20px rgba(237, 137, 54, 0.6);
+    }
   }
-  .yellow {
+  &.yellow {
     background: $yellow;
+    box-shadow: 0 7px 20px rgba(236, 201, 75, 0.2);
+    &:hover {
+      box-shadow: 0 7px 20px rgba(236, 201, 75, 0.6);
+    }
   }
-  .green {
+  &.green {
     background: $green;
+    box-shadow: 0 7px 20px rgba(72, 187, 120, 0.2);
+    &:hover {
+      box-shadow: 0 7px 20px rgba(72, 187, 120, 0.6);
+    }
   }
-  .teal {
+  &.teal {
     background: $teal;
+    box-shadow: 0 7px 20px rgba(56, 178, 172, 0.2);
+    &:hover {
+      box-shadow: 0 7px 20px rgba(56, 178, 172, 0.6);
+    }
   }
-  .blue {
+  &.blue {
     background: $blue;
+    box-shadow: 0 7px 20px rgba(66, 153, 225, 0.2);
+    &:hover {
+      box-shadow: 0 7px 20px rgba(66, 153, 225, 0.6);
+    }
   }
-  .indigo {
+  &.indigo {
     background: $indigo;
+    box-shadow: 0 7px 20px rgba(102, 126, 234, 0.2);
+    &:hover {
+      box-shadow: 0 7px 20px rgba(102, 126, 234, 0.6);
+    }
   }
-  .purple {
+  &.purple {
     background: $purple;
+    box-shadow: 0 7px 20px rgba(159, 122, 234, 0.2);
+    &:hover {
+      box-shadow: 0 7px 20px rgba(159, 122, 234, 0.6);
+    }
   }
-  .pink {
+  &.pink {
     background: $pink;
+    box-shadow: 0 7px 20px rgba(237, 100, 166, 0.2);
+    &:hover {
+      box-shadow: 0 7px 20px rgba(237, 100, 166, 0.6);
+    }
   }
 }
