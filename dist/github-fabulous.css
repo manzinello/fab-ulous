@@ -128,10 +128,10 @@
          -moz-box-shadow: 0 7px 20px rgba(237, 100, 166, 0.85);
               box-shadow: 0 7px 20px rgba(237, 100, 166, 0.85); }
   #github-fabulous.top {
-    top: 0; }
+    top: 24px; }
   #github-fabulous.bottom {
-    bottom: 0; }
+    bottom: 24px; }
   #github-fabulous.left {
-    left: 0; }
+    left: 24px; }
   #github-fabulous.right {
-    right: 0; }
+    right: 24px; }
