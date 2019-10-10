@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/manzinello/fab-ulous/issues"
   },
-  "homepage": "https://github.com/manzinello/fab-ulous#readme",
+  "homepage": "https://fab-ulous.github.io",
   "browserslist": "cover 99.5%",
   "devDependencies": {
     "gulp": "^4.0.2",
