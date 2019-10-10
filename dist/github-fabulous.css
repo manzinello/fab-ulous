@@ -24,9 +24,9 @@
   -moz-transition: box-shadow 0.5s, -moz-box-shadow 0.5s;
   transition: box-shadow 0.5s;
   transition: box-shadow 0.5s, -webkit-box-shadow 0.5s, -moz-box-shadow 0.5s;
-  -webkit-box-shadow: 0 3px 10px rgba(26, 32, 44, 0.6);
-     -moz-box-shadow: 0 3px 10px rgba(26, 32, 44, 0.6);
-          box-shadow: 0 3px 10px rgba(26, 32, 44, 0.6);
+  -webkit-box-shadow: 0 3px 10px rgba(26, 32, 44, 0.5);
+     -moz-box-shadow: 0 3px 10px rgba(26, 32, 44, 0.5);
+          box-shadow: 0 3px 10px rgba(26, 32, 44, 0.5);
   -webkit-border-radius: 9999px;
      -moz-border-radius: 9999px;
           border-radius: 9999px;
@@ -37,90 +37,90 @@
             box-shadow: 0 7px 20px rgba(26, 32, 44, 0.85); }
   #github-fabulous.gray {
     background: #a0aec0;
-    -webkit-box-shadow: 0 7px 20px rgba(160, 174, 192, 0.6);
-       -moz-box-shadow: 0 7px 20px rgba(160, 174, 192, 0.6);
-            box-shadow: 0 7px 20px rgba(160, 174, 192, 0.6); }
+    -webkit-box-shadow: 0 7px 20px rgba(160, 174, 192, 0.5);
+       -moz-box-shadow: 0 7px 20px rgba(160, 174, 192, 0.5);
+            box-shadow: 0 7px 20px rgba(160, 174, 192, 0.5); }
     #github-fabulous.gray:hover {
       -webkit-box-shadow: 0 7px 20px rgba(160, 174, 192, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(160, 174, 192, 0.85);
               box-shadow: 0 7px 20px rgba(160, 174, 192, 0.85); }
   #github-fabulous.red {
     background: #f56565;
-    -webkit-box-shadow: 0 7px 20px rgba(245, 101, 101, 0.6);
-       -moz-box-shadow: 0 7px 20px rgba(245, 101, 101, 0.6);
-            box-shadow: 0 7px 20px rgba(245, 101, 101, 0.6); }
+    -webkit-box-shadow: 0 7px 20px rgba(245, 101, 101, 0.5);
+       -moz-box-shadow: 0 7px 20px rgba(245, 101, 101, 0.5);
+            box-shadow: 0 7px 20px rgba(245, 101, 101, 0.5); }
     #github-fabulous.red:hover {
       -webkit-box-shadow: 0 7px 20px rgba(245, 101, 101, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(245, 101, 101, 0.85);
               box-shadow: 0 7px 20px rgba(245, 101, 101, 0.85); }
   #github-fabulous.orange {
     background: #ed8936;
-    -webkit-box-shadow: 0 7px 20px rgba(237, 137, 54, 0.6);
-       -moz-box-shadow: 0 7px 20px rgba(237, 137, 54, 0.6);
-            box-shadow: 0 7px 20px rgba(237, 137, 54, 0.6); }
+    -webkit-box-shadow: 0 7px 20px rgba(237, 137, 54, 0.5);
+       -moz-box-shadow: 0 7px 20px rgba(237, 137, 54, 0.5);
+            box-shadow: 0 7px 20px rgba(237, 137, 54, 0.5); }
     #github-fabulous.orange:hover {
       -webkit-box-shadow: 0 7px 20px rgba(237, 137, 54, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(237, 137, 54, 0.85);
               box-shadow: 0 7px 20px rgba(237, 137, 54, 0.85); }
   #github-fabulous.yellow {
     background: #ecc94b;
-    -webkit-box-shadow: 0 7px 20px rgba(236, 201, 75, 0.6);
-       -moz-box-shadow: 0 7px 20px rgba(236, 201, 75, 0.6);
-            box-shadow: 0 7px 20px rgba(236, 201, 75, 0.6); }
+    -webkit-box-shadow: 0 7px 20px rgba(236, 201, 75, 0.5);
+       -moz-box-shadow: 0 7px 20px rgba(236, 201, 75, 0.5);
+            box-shadow: 0 7px 20px rgba(236, 201, 75, 0.5); }
     #github-fabulous.yellow:hover {
       -webkit-box-shadow: 0 7px 20px rgba(236, 201, 75, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(236, 201, 75, 0.85);
               box-shadow: 0 7px 20px rgba(236, 201, 75, 0.85); }
   #github-fabulous.green {
     background: #48bb78;
-    -webkit-box-shadow: 0 7px 20px rgba(72, 187, 120, 0.6);
-       -moz-box-shadow: 0 7px 20px rgba(72, 187, 120, 0.6);
-            box-shadow: 0 7px 20px rgba(72, 187, 120, 0.6); }
+    -webkit-box-shadow: 0 7px 20px rgba(72, 187, 120, 0.5);
+       -moz-box-shadow: 0 7px 20px rgba(72, 187, 120, 0.5);
+            box-shadow: 0 7px 20px rgba(72, 187, 120, 0.5); }
     #github-fabulous.green:hover {
       -webkit-box-shadow: 0 7px 20px rgba(72, 187, 120, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(72, 187, 120, 0.85);
               box-shadow: 0 7px 20px rgba(72, 187, 120, 0.85); }
   #github-fabulous.teal {
     background: #38b2ac;
-    -webkit-box-shadow: 0 7px 20px rgba(56, 178, 172, 0.6);
-       -moz-box-shadow: 0 7px 20px rgba(56, 178, 172, 0.6);
-            box-shadow: 0 7px 20px rgba(56, 178, 172, 0.6); }
+    -webkit-box-shadow: 0 7px 20px rgba(56, 178, 172, 0.5);
+       -moz-box-shadow: 0 7px 20px rgba(56, 178, 172, 0.5);
+            box-shadow: 0 7px 20px rgba(56, 178, 172, 0.5); }
     #github-fabulous.teal:hover {
       -webkit-box-shadow: 0 7px 20px rgba(56, 178, 172, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(56, 178, 172, 0.85);
               box-shadow: 0 7px 20px rgba(56, 178, 172, 0.85); }
   #github-fabulous.blue {
     background: #4299e1;
-    -webkit-box-shadow: 0 7px 20px rgba(66, 153, 225, 0.6);
-       -moz-box-shadow: 0 7px 20px rgba(66, 153, 225, 0.6);
-            box-shadow: 0 7px 20px rgba(66, 153, 225, 0.6); }
+    -webkit-box-shadow: 0 7px 20px rgba(66, 153, 225, 0.5);
+       -moz-box-shadow: 0 7px 20px rgba(66, 153, 225, 0.5);
+            box-shadow: 0 7px 20px rgba(66, 153, 225, 0.5); }
     #github-fabulous.blue:hover {
       -webkit-box-shadow: 0 7px 20px rgba(66, 153, 225, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(66, 153, 225, 0.85);
               box-shadow: 0 7px 20px rgba(66, 153, 225, 0.85); }
   #github-fabulous.indigo {
     background: #667eea;
-    -webkit-box-shadow: 0 7px 20px rgba(102, 126, 234, 0.6);
-       -moz-box-shadow: 0 7px 20px rgba(102, 126, 234, 0.6);
-            box-shadow: 0 7px 20px rgba(102, 126, 234, 0.6); }
+    -webkit-box-shadow: 0 7px 20px rgba(102, 126, 234, 0.5);
+       -moz-box-shadow: 0 7px 20px rgba(102, 126, 234, 0.5);
+            box-shadow: 0 7px 20px rgba(102, 126, 234, 0.5); }
     #github-fabulous.indigo:hover {
       -webkit-box-shadow: 0 7px 20px rgba(102, 126, 234, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(102, 126, 234, 0.85);
               box-shadow: 0 7px 20px rgba(102, 126, 234, 0.85); }
   #github-fabulous.purple {
     background: #9f7aea;
-    -webkit-box-shadow: 0 7px 20px rgba(159, 122, 234, 0.6);
-       -moz-box-shadow: 0 7px 20px rgba(159, 122, 234, 0.6);
-            box-shadow: 0 7px 20px rgba(159, 122, 234, 0.6); }
+    -webkit-box-shadow: 0 7px 20px rgba(159, 122, 234, 0.5);
+       -moz-box-shadow: 0 7px 20px rgba(159, 122, 234, 0.5);
+            box-shadow: 0 7px 20px rgba(159, 122, 234, 0.5); }
     #github-fabulous.purple:hover {
       -webkit-box-shadow: 0 7px 20px rgba(159, 122, 234, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(159, 122, 234, 0.85);
               box-shadow: 0 7px 20px rgba(159, 122, 234, 0.85); }
   #github-fabulous.pink {
     background: #ed64a6;
-    -webkit-box-shadow: 0 7px 20px rgba(237, 100, 166, 0.6);
-       -moz-box-shadow: 0 7px 20px rgba(237, 100, 166, 0.6);
-            box-shadow: 0 7px 20px rgba(237, 100, 166, 0.6); }
+    -webkit-box-shadow: 0 7px 20px rgba(237, 100, 166, 0.5);
+       -moz-box-shadow: 0 7px 20px rgba(237, 100, 166, 0.5);
+            box-shadow: 0 7px 20px rgba(237, 100, 166, 0.5); }
     #github-fabulous.pink:hover {
       -webkit-box-shadow: 0 7px 20px rgba(237, 100, 166, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(237, 100, 166, 0.85);
