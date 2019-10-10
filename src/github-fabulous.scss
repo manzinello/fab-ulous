@@ -1,3 +1,4 @@
+$default: #1a202c;
 $gray: #a0aec0; /* #a0aec0 */
 $red: #f56565; /* #f56565 */
 $orange: #ed8936; /* #ed8936 */
@@ -16,14 +17,41 @@ $pink: #ed64a6; /* #ed64a6 */
   width: 48px;
   height: 48px;
   padding: 8px;
-  background: $blue;
+  background: $default;
   content: url("../assets/github.svg");
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   border-radius: 9999px;
   color: white;
   &:hover {
   }
+  .gray {
+    background: $gray;
+  }
+  .red {
+    background: $red;
+  }
+  .orange {
+    background: $orange;
+  }
+  .yellow {
+    background: $yellow;
+  }
+  .green {
+    background: $green;
+  }
   .teal {
     background: $teal;
+  }
+  .blue {
+    background: $blue;
+  }
+  .indigo {
+    background: $indigo;
+  }
+  .purple {
+    background: $purple;
+  }
+  .pink {
+    background: $pink;
   }
 }
