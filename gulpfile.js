@@ -1,7 +1,6 @@
 const { src, dest, parallel, series } = require("gulp");
 
 const rename = require("gulp-rename");
-const csso = require("gulp-csso");
 const cleanCSS = require("gulp-clean-css");
 const autoprefixer = require("gulp-autoprefixer");
 
