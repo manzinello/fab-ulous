@@ -11,6 +11,13 @@ function style() {
   return src("src/*.scss")
     .pipe(sass().on("error", sass.logError))
     .pipe(autoprefixer())
+    .pipe(dest("dist"));
+}
+
+function styleMin() {
+  return src("src/*.scss")
+    .pipe(sass().on("error", sass.logError))
+    .pipe(autoprefixer())
     .pipe(csso())
     .pipe(
       rename({
@@ -21,5 +28,6 @@ function style() {
 }
 
 exports.style = style;
+exports.styleMin = styleMin;
 
-exports.default = series(style);
+exports.default = parallel(style, styleMin);
