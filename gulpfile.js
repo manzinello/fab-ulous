@@ -2,6 +2,7 @@ const { src, dest, parallel, series } = require("gulp");
 
 const rename = require("gulp-rename");
 const csso = require("gulp-csso");
+const cleanCSS = require("gulp-clean-css");
 const autoprefixer = require("gulp-autoprefixer");
 
 const sass = require("gulp-sass");
@@ -18,7 +19,7 @@ function styleMin() {
   return src("src/*.scss")
     .pipe(sass().on("error", sass.logError))
     .pipe(autoprefixer())
-    .pipe(csso())
+    .pipe(cleanCSS({ compatibility: "ie8" }))
     .pipe(
       rename({
         suffix: ".min"
