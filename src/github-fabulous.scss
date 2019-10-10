@@ -20,7 +20,7 @@ $pink: #ed64a6; /* #ed64a6 */
   background: $default;
   content: url("../assets/github.svg");
   transition: box-shadow 0.5s;
-  box-shadow: 0 3px 10px rgba(26, 32, 44, 0.6);
+  box-shadow: 0 3px 10px rgba(26, 32, 44, 0.5);
   border-radius: 9999px;
   color: white;
   &:hover {
@@ -28,70 +28,70 @@ $pink: #ed64a6; /* #ed64a6 */
   }
   &.gray {
     background: $gray;
-    box-shadow: 0 7px 20px rgba(160, 174, 192, 0.6);
+    box-shadow: 0 7px 20px rgba(160, 174, 192, 0.5);
     &:hover {
       box-shadow: 0 7px 20px rgba(160, 174, 192, 0.85);
     }
   }
   &.red {
     background: $red;
-    box-shadow: 0 7px 20px rgba(245, 101, 101, 0.6);
+    box-shadow: 0 7px 20px rgba(245, 101, 101, 0.5);
     &:hover {
       box-shadow: 0 7px 20px rgba(245, 101, 101, 0.85);
     }
   }
   &.orange {
     background: $orange;
-    box-shadow: 0 7px 20px rgba(237, 137, 54, 0.6);
+    box-shadow: 0 7px 20px rgba(237, 137, 54, 0.5);
     &:hover {
       box-shadow: 0 7px 20px rgba(237, 137, 54, 0.85);
     }
   }
   &.yellow {
     background: $yellow;
-    box-shadow: 0 7px 20px rgba(236, 201, 75, 0.6);
+    box-shadow: 0 7px 20px rgba(236, 201, 75, 0.5);
     &:hover {
       box-shadow: 0 7px 20px rgba(236, 201, 75, 0.85);
     }
   }
   &.green {
     background: $green;
-    box-shadow: 0 7px 20px rgba(72, 187, 120, 0.6);
+    box-shadow: 0 7px 20px rgba(72, 187, 120, 0.5);
     &:hover {
       box-shadow: 0 7px 20px rgba(72, 187, 120, 0.85);
     }
   }
   &.teal {
     background: $teal;
-    box-shadow: 0 7px 20px rgba(56, 178, 172, 0.6);
+    box-shadow: 0 7px 20px rgba(56, 178, 172, 0.5);
     &:hover {
       box-shadow: 0 7px 20px rgba(56, 178, 172, 0.85);
     }
   }
   &.blue {
     background: $blue;
-    box-shadow: 0 7px 20px rgba(66, 153, 225, 0.6);
+    box-shadow: 0 7px 20px rgba(66, 153, 225, 0.5);
     &:hover {
       box-shadow: 0 7px 20px rgba(66, 153, 225, 0.85);
     }
   }
   &.indigo {
     background: $indigo;
-    box-shadow: 0 7px 20px rgba(102, 126, 234, 0.6);
+    box-shadow: 0 7px 20px rgba(102, 126, 234, 0.5);
     &:hover {
       box-shadow: 0 7px 20px rgba(102, 126, 234, 0.85);
     }
   }
   &.purple {
     background: $purple;
-    box-shadow: 0 7px 20px rgba(159, 122, 234, 0.6);
+    box-shadow: 0 7px 20px rgba(159, 122, 234, 0.5);
     &:hover {
       box-shadow: 0 7px 20px rgba(159, 122, 234, 0.85);
     }
   }
   &.pink {
     background: $pink;
-    box-shadow: 0 7px 20px rgba(237, 100, 166, 0.6);
+    box-shadow: 0 7px 20px rgba(237, 100, 166, 0.5);
     &:hover {
       box-shadow: 0 7px 20px rgba(237, 100, 166, 0.85);
     }
