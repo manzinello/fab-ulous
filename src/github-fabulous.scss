@@ -19,11 +19,12 @@ $pink: #ed64a6; /* #ed64a6 */
   padding: 8px;
   background: $default;
   content: url("../assets/github.svg");
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.5s;
+  box-shadow: 0 3px 10px rgba(26, 32, 44, 0.2);
   border-radius: 9999px;
   color: white;
   &:hover {
-    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 7px 20px rgba(26, 32, 44, 0.4);
   }
   .gray {
     background: $gray;
