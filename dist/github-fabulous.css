@@ -18,13 +18,17 @@
   padding: 8px;
   background: #1a202c;
   content: url("../assets/github.svg");
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
-     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+     -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
   -webkit-border-radius: 9999px;
      -moz-border-radius: 9999px;
           border-radius: 9999px;
   color: white; }
+  #github-fabulous:hover {
+    -webkit-box-shadow: 0 7px 20px rgba(0, 0, 0, 0.16);
+       -moz-box-shadow: 0 7px 20px rgba(0, 0, 0, 0.16);
+            box-shadow: 0 7px 20px rgba(0, 0, 0, 0.16); }
   #github-fabulous .gray {
     background: #a0aec0; }
   #github-fabulous .red {
