@@ -38,7 +38,11 @@
      -moz-border-radius: 9999px;
           border-radius: 9999px;
   color: white;
-  outline: none; }
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1; }
   @media screen and (max-width: 640px) {
     #github-fabulous {
       width: 56px;

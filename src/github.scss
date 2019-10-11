@@ -41,7 +41,11 @@ $default-distance: 24px;
   box-shadow: 0 3px 10px rgba(26, 32, 44, 0.5);
   border-radius: 9999px;
   color: white;
-  outline: none;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1;
   &:hover {
     box-shadow: 0 7px 20px rgba(26, 32, 44, 0.85);
   }
