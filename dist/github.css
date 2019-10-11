@@ -9,6 +9,9 @@
 /* #667eea */
 /* #9f7aea */
 /* #ed64a6 */
+/* break-points */
+/* resources */
+/* other vars */
 #github-fabulous {
   position: fixed;
   right: 24px;
@@ -18,7 +21,7 @@
   z-index: 1001;
   padding: 8px;
   background: #1a202c;
-  content: url("../assets/github.svg");
+  content: url("https://fab-ulous.github.io/github.svg");
   -webkit-transition: -webkit-box-shadow 0.5s;
   transition: -webkit-box-shadow 0.5s;
   -o-transition: box-shadow 0.5s;
