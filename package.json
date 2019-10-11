@@ -1,7 +1,7 @@
 {
   "name": "@fab-ulous/github",
-  "version": "0.1.2",
-  "description": "Fab-ulous colorful buttons (for your GitHub repo or account)",
+  "version": "0.1.3",
+  "description": "Colorful floating action buttons for your GitHub repo or account",
   "main": "./dist/github.min.css",
   "scripts": {
     "build": "gulp",
