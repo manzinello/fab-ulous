@@ -32,9 +32,8 @@ $default-distance: 24px;
   z-index: 1001;
   padding: 8px;
   @media screen and (max-width: $small) {
-    width: 140px;
-    height: 140px;
-    padding: 24px;
+    width: 56px;
+    height: 56px;
   }
   background: $default;
   content: url($github-svg);

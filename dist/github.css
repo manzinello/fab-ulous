@@ -41,9 +41,8 @@
   outline: none; }
   @media screen and (max-width: 640px) {
     #github-fabulous {
-      width: 140px;
-      height: 140px;
-      padding: 24px; } }
+      width: 56px;
+      height: 56px; } }
   #github-fabulous:hover {
     -webkit-box-shadow: 0 7px 20px rgba(26, 32, 44, 0.85);
        -moz-box-shadow: 0 7px 20px rgba(26, 32, 44, 0.85);
