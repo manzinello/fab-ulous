@@ -10,15 +10,22 @@ $indigo: #667eea; /* #667eea */
 $purple: #9f7aea; /* #9f7aea */
 $pink: #ed64a6; /* #ed64a6 */
 
+/* break-points */
 $small: 640px;
 $medium: 768px;
 $large: 1024px;
 $extralarge: 1280px;
 
+/* resources */
+$github-svg: "https://fab-ulous.github.io/github.svg";
+
+/* other vars */
+$default-distance: 24px;
+
 #github-fabulous {
   position: fixed;
-  right: 24px;
-  bottom: 24px;
+  right: $default-distance;
+  bottom: $default-distance;
   width: 48px;
   height: 48px;
   z-index: 1001;
@@ -29,7 +36,7 @@ $extralarge: 1280px;
     padding: 24px;
   }
   background: $default;
-  content: url("../assets/github.svg");
+  content: url($github-svg);
   transition: box-shadow 0.5s;
   box-shadow: 0 3px 10px rgba(26, 32, 44, 0.5);
   border-radius: 9999px;
@@ -109,16 +116,16 @@ $extralarge: 1280px;
     }
   }
   &.top {
-    top: 24px;
+    top: $default-distance;
   }
   &.bottom {
-    bottom: 24px;
+    bottom: $default-distance;
   }
   &.left {
-    left: 24px;
+    left: $default-distance;
   }
   &.right {
-    right: 24px;
+    right: $default-distance;
   }
   &.no-shadow {
     box-shadow: none;
