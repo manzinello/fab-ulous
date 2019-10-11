@@ -10,6 +10,11 @@ $indigo: #667eea; /* #667eea */
 $purple: #9f7aea; /* #9f7aea */
 $pink: #ed64a6; /* #ed64a6 */
 
+$small: 640px;
+$medium: 768px;
+$large: 1024px;
+$extralarge: 1280px;
+
 #github-fabulous {
   position: fixed;
   right: 24px;
@@ -18,6 +23,11 @@ $pink: #ed64a6; /* #ed64a6 */
   height: 48px;
   z-index: 1001;
   padding: 8px;
+  @media screen and (max-width: $small) {
+    width: 140px;
+    height: 140px;
+    padding: 24px;
+  }
   background: $default;
   content: url("../assets/github.svg");
   transition: box-shadow 0.5s;
