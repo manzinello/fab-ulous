@@ -3,6 +3,7 @@
   "version": "0.1.5",
   "description": "Colorful floating action buttons for your GitHub repo or account",
   "main": "./dist/github.min.css",
+  "module": "./dist/github.min.css",
   "scripts": {
     "build": "gulp",
     "test": "jest"
@@ -11,7 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/manzinello/fab-ulous.git"
   },
-  "module": "./dist/github.min.css",
   "keywords": [
     "github",
     "buttons"
