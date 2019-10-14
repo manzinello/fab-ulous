@@ -12,7 +12,10 @@
 /* break-points */
 /* resources */
 /* other vars */
-#github-fabulous {
+.fabulous,
+.fab-ulous,
+#github-fabulous,
+.github-fabulous {
   position: fixed;
   right: 24px;
   bottom: 24px;
@@ -44,116 +47,200 @@
   vertical-align: baseline;
   line-height: 1; }
   @media screen and (max-width: 640px) {
-    #github-fabulous {
+    .fabulous,
+    .fab-ulous,
+    #github-fabulous,
+    .github-fabulous {
       width: 56px;
       height: 56px; } }
-  #github-fabulous:hover {
+  .fabulous:hover,
+  .fab-ulous:hover,
+  #github-fabulous:hover,
+  .github-fabulous:hover {
     -webkit-box-shadow: 0 7px 20px rgba(26, 32, 44, 0.85);
        -moz-box-shadow: 0 7px 20px rgba(26, 32, 44, 0.85);
             box-shadow: 0 7px 20px rgba(26, 32, 44, 0.85); }
-  #github-fabulous.gray {
+  .fabulous.gray,
+  .fab-ulous.gray,
+  #github-fabulous.gray,
+  .github-fabulous.gray {
     background: #a0aec0;
     -webkit-box-shadow: 0 7px 20px rgba(160, 174, 192, 0.5);
        -moz-box-shadow: 0 7px 20px rgba(160, 174, 192, 0.5);
             box-shadow: 0 7px 20px rgba(160, 174, 192, 0.5); }
-    #github-fabulous.gray:hover {
+    .fabulous.gray:hover,
+    .fab-ulous.gray:hover,
+    #github-fabulous.gray:hover,
+    .github-fabulous.gray:hover {
       -webkit-box-shadow: 0 7px 20px rgba(160, 174, 192, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(160, 174, 192, 0.85);
               box-shadow: 0 7px 20px rgba(160, 174, 192, 0.85); }
-  #github-fabulous.red {
+  .fabulous.red,
+  .fab-ulous.red,
+  #github-fabulous.red,
+  .github-fabulous.red {
     background: #f56565;
     -webkit-box-shadow: 0 7px 20px rgba(245, 101, 101, 0.5);
        -moz-box-shadow: 0 7px 20px rgba(245, 101, 101, 0.5);
             box-shadow: 0 7px 20px rgba(245, 101, 101, 0.5); }
-    #github-fabulous.red:hover {
+    .fabulous.red:hover,
+    .fab-ulous.red:hover,
+    #github-fabulous.red:hover,
+    .github-fabulous.red:hover {
       -webkit-box-shadow: 0 7px 20px rgba(245, 101, 101, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(245, 101, 101, 0.85);
               box-shadow: 0 7px 20px rgba(245, 101, 101, 0.85); }
-  #github-fabulous.orange {
+  .fabulous.orange,
+  .fab-ulous.orange,
+  #github-fabulous.orange,
+  .github-fabulous.orange {
     background: #ed8936;
     -webkit-box-shadow: 0 7px 20px rgba(237, 137, 54, 0.5);
        -moz-box-shadow: 0 7px 20px rgba(237, 137, 54, 0.5);
             box-shadow: 0 7px 20px rgba(237, 137, 54, 0.5); }
-    #github-fabulous.orange:hover {
+    .fabulous.orange:hover,
+    .fab-ulous.orange:hover,
+    #github-fabulous.orange:hover,
+    .github-fabulous.orange:hover {
       -webkit-box-shadow: 0 7px 20px rgba(237, 137, 54, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(237, 137, 54, 0.85);
               box-shadow: 0 7px 20px rgba(237, 137, 54, 0.85); }
-  #github-fabulous.yellow {
+  .fabulous.yellow,
+  .fab-ulous.yellow,
+  #github-fabulous.yellow,
+  .github-fabulous.yellow {
     background: #ecc94b;
     -webkit-box-shadow: 0 7px 20px rgba(236, 201, 75, 0.5);
        -moz-box-shadow: 0 7px 20px rgba(236, 201, 75, 0.5);
             box-shadow: 0 7px 20px rgba(236, 201, 75, 0.5); }
-    #github-fabulous.yellow:hover {
+    .fabulous.yellow:hover,
+    .fab-ulous.yellow:hover,
+    #github-fabulous.yellow:hover,
+    .github-fabulous.yellow:hover {
       -webkit-box-shadow: 0 7px 20px rgba(236, 201, 75, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(236, 201, 75, 0.85);
               box-shadow: 0 7px 20px rgba(236, 201, 75, 0.85); }
-  #github-fabulous.green {
+  .fabulous.green,
+  .fab-ulous.green,
+  #github-fabulous.green,
+  .github-fabulous.green {
     background: #48bb78;
     -webkit-box-shadow: 0 7px 20px rgba(72, 187, 120, 0.5);
        -moz-box-shadow: 0 7px 20px rgba(72, 187, 120, 0.5);
             box-shadow: 0 7px 20px rgba(72, 187, 120, 0.5); }
-    #github-fabulous.green:hover {
+    .fabulous.green:hover,
+    .fab-ulous.green:hover,
+    #github-fabulous.green:hover,
+    .github-fabulous.green:hover {
       -webkit-box-shadow: 0 7px 20px rgba(72, 187, 120, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(72, 187, 120, 0.85);
               box-shadow: 0 7px 20px rgba(72, 187, 120, 0.85); }
-  #github-fabulous.teal {
+  .fabulous.teal,
+  .fab-ulous.teal,
+  #github-fabulous.teal,
+  .github-fabulous.teal {
     background: #38b2ac;
     -webkit-box-shadow: 0 7px 20px rgba(56, 178, 172, 0.5);
        -moz-box-shadow: 0 7px 20px rgba(56, 178, 172, 0.5);
             box-shadow: 0 7px 20px rgba(56, 178, 172, 0.5); }
-    #github-fabulous.teal:hover {
+    .fabulous.teal:hover,
+    .fab-ulous.teal:hover,
+    #github-fabulous.teal:hover,
+    .github-fabulous.teal:hover {
       -webkit-box-shadow: 0 7px 20px rgba(56, 178, 172, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(56, 178, 172, 0.85);
               box-shadow: 0 7px 20px rgba(56, 178, 172, 0.85); }
-  #github-fabulous.blue {
+  .fabulous.blue,
+  .fab-ulous.blue,
+  #github-fabulous.blue,
+  .github-fabulous.blue {
     background: #4299e1;
     -webkit-box-shadow: 0 7px 20px rgba(66, 153, 225, 0.5);
        -moz-box-shadow: 0 7px 20px rgba(66, 153, 225, 0.5);
             box-shadow: 0 7px 20px rgba(66, 153, 225, 0.5); }
-    #github-fabulous.blue:hover {
+    .fabulous.blue:hover,
+    .fab-ulous.blue:hover,
+    #github-fabulous.blue:hover,
+    .github-fabulous.blue:hover {
       -webkit-box-shadow: 0 7px 20px rgba(66, 153, 225, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(66, 153, 225, 0.85);
               box-shadow: 0 7px 20px rgba(66, 153, 225, 0.85); }
-  #github-fabulous.indigo {
+  .fabulous.indigo,
+  .fab-ulous.indigo,
+  #github-fabulous.indigo,
+  .github-fabulous.indigo {
     background: #667eea;
     -webkit-box-shadow: 0 7px 20px rgba(102, 126, 234, 0.5);
        -moz-box-shadow: 0 7px 20px rgba(102, 126, 234, 0.5);
             box-shadow: 0 7px 20px rgba(102, 126, 234, 0.5); }
-    #github-fabulous.indigo:hover {
+    .fabulous.indigo:hover,
+    .fab-ulous.indigo:hover,
+    #github-fabulous.indigo:hover,
+    .github-fabulous.indigo:hover {
       -webkit-box-shadow: 0 7px 20px rgba(102, 126, 234, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(102, 126, 234, 0.85);
               box-shadow: 0 7px 20px rgba(102, 126, 234, 0.85); }
-  #github-fabulous.purple {
+  .fabulous.purple,
+  .fab-ulous.purple,
+  #github-fabulous.purple,
+  .github-fabulous.purple {
     background: #9f7aea;
     -webkit-box-shadow: 0 7px 20px rgba(159, 122, 234, 0.5);
        -moz-box-shadow: 0 7px 20px rgba(159, 122, 234, 0.5);
             box-shadow: 0 7px 20px rgba(159, 122, 234, 0.5); }
-    #github-fabulous.purple:hover {
+    .fabulous.purple:hover,
+    .fab-ulous.purple:hover,
+    #github-fabulous.purple:hover,
+    .github-fabulous.purple:hover {
       -webkit-box-shadow: 0 7px 20px rgba(159, 122, 234, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(159, 122, 234, 0.85);
               box-shadow: 0 7px 20px rgba(159, 122, 234, 0.85); }
-  #github-fabulous.pink {
+  .fabulous.pink,
+  .fab-ulous.pink,
+  #github-fabulous.pink,
+  .github-fabulous.pink {
     background: #ed64a6;
     -webkit-box-shadow: 0 7px 20px rgba(237, 100, 166, 0.5);
        -moz-box-shadow: 0 7px 20px rgba(237, 100, 166, 0.5);
             box-shadow: 0 7px 20px rgba(237, 100, 166, 0.5); }
-    #github-fabulous.pink:hover {
+    .fabulous.pink:hover,
+    .fab-ulous.pink:hover,
+    #github-fabulous.pink:hover,
+    .github-fabulous.pink:hover {
       -webkit-box-shadow: 0 7px 20px rgba(237, 100, 166, 0.85);
          -moz-box-shadow: 0 7px 20px rgba(237, 100, 166, 0.85);
               box-shadow: 0 7px 20px rgba(237, 100, 166, 0.85); }
-  #github-fabulous.top {
+  .fabulous.top,
+  .fab-ulous.top,
+  #github-fabulous.top,
+  .github-fabulous.top {
     top: 24px; }
-  #github-fabulous.bottom {
+  .fabulous.bottom,
+  .fab-ulous.bottom,
+  #github-fabulous.bottom,
+  .github-fabulous.bottom {
     bottom: 24px; }
-  #github-fabulous.left {
+  .fabulous.left,
+  .fab-ulous.left,
+  #github-fabulous.left,
+  .github-fabulous.left {
     left: 24px; }
-  #github-fabulous.right {
+  .fabulous.right,
+  .fab-ulous.right,
+  #github-fabulous.right,
+  .github-fabulous.right {
     right: 24px; }
-  #github-fabulous.no-shadow {
+  .fabulous.no-shadow,
+  .fab-ulous.no-shadow,
+  #github-fabulous.no-shadow,
+  .github-fabulous.no-shadow {
     -webkit-box-shadow: none;
        -moz-box-shadow: none;
             box-shadow: none; }
-    #github-fabulous.no-shadow:hover {
+    .fabulous.no-shadow:hover,
+    .fab-ulous.no-shadow:hover,
+    #github-fabulous.no-shadow:hover,
+    .github-fabulous.no-shadow:hover {
       -webkit-box-shadow: none;
          -moz-box-shadow: none;
               box-shadow: none; }

@@ -22,7 +22,10 @@ $github-svg: "https://fab-ulous.github.io/github.svg";
 /* other vars */
 $default-distance: 24px;
 
-#github-fabulous {
+.fabulous,
+.fab-ulous,
+#github-fabulous,
+.github-fabulous {
   position: fixed;
   right: $default-distance;
   bottom: $default-distance;
