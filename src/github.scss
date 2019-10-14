@@ -21,6 +21,7 @@ $github-svg: "https://fab-ulous.github.io/github.svg";
 
 /* other vars */
 $default-distance: 24px;
+$default-size: 48px;
 
 .fabulous,
 .fab-ulous,
@@ -30,8 +31,8 @@ $default-distance: 24px;
   right: $default-distance;
   bottom: $default-distance;
   box-sizing: content-box;
-  width: 48px;
-  height: 48px;
+  width: $default-size;
+  height: $default-size;
   z-index: 1001;
   padding: 8px;
   @media screen and (max-width: $small) {
