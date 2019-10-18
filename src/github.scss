@@ -17,11 +17,17 @@ $large: 1024px;
 $extralarge: 1280px;
 
 /* resources */
-$github-svg: "https://fab-ulous.github.io/github.svg";
+$main-url: "https://fab-ulous.github.io";
+$github-svg: $main-url + "/github.svg";
 
 /* other vars */
 $default-distance: 24px;
 $default-size: 48px;
+
+$default-boxshadow: 0 3px 20px;
+$default-boxshadow-hover: 0 7px 20px;
+$default-boxshadow-opacity: 0.5;
+$default-boxshadow-opacity-hover: 0.85;
 
 .fabulous,
 .fab-ulous,
@@ -42,7 +48,7 @@ $default-size: 48px;
   background: $default;
   content: url($github-svg);
   transition: box-shadow 0.5s;
-  box-shadow: 0 3px 10px rgba(26, 32, 44, 0.5);
+  box-shadow: $default-boxshadow rgba(26, 32, 44, $default-boxshadow-opacity);
   border-radius: 9999px;
   color: white;
   border: 0;
@@ -51,76 +57,97 @@ $default-size: 48px;
   vertical-align: baseline;
   line-height: 1;
   &:hover {
-    box-shadow: 0 7px 20px rgba(26, 32, 44, 0.85);
+    box-shadow: $default-boxshadow-hover
+      rgba(26, 32, 44, $default-boxshadow-opacity-hover);
   }
   &.gray {
     background: $gray;
-    box-shadow: 0 7px 20px rgba(160, 174, 192, 0.5);
+    box-shadow: $default-boxshadow
+      rgba(160, 174, 192, $default-boxshadow-opacity);
     &:hover {
-      box-shadow: 0 7px 20px rgba(160, 174, 192, 0.85);
+      box-shadow: $default-boxshadow-hover
+        rgba(160, 174, 192, $default-boxshadow-opacity-hover);
     }
   }
   &.red {
     background: $red;
-    box-shadow: 0 7px 20px rgba(245, 101, 101, 0.5);
+    box-shadow: $default-boxshadow
+      rgba(245, 101, 101, $default-boxshadow-opacity);
     &:hover {
-      box-shadow: 0 7px 20px rgba(245, 101, 101, 0.85);
+      box-shadow: $default-boxshadow-hover
+        rgba(245, 101, 101, $default-boxshadow-opacity-hover);
     }
   }
   &.orange {
     background: $orange;
-    box-shadow: 0 7px 20px rgba(237, 137, 54, 0.5);
+    box-shadow: $default-boxshadow
+      rgba(237, 137, 54, $default-boxshadow-opacity);
     &:hover {
-      box-shadow: 0 7px 20px rgba(237, 137, 54, 0.85);
+      box-shadow: $default-boxshadow-hover
+        rgba(237, 137, 54, $default-boxshadow-opacity-hover);
     }
   }
   &.yellow {
     background: $yellow;
-    box-shadow: 0 7px 20px rgba(236, 201, 75, 0.5);
+    box-shadow: $default-boxshadow
+      rgba(236, 201, 75, $default-boxshadow-opacity);
     &:hover {
-      box-shadow: 0 7px 20px rgba(236, 201, 75, 0.85);
+      box-shadow: $default-boxshadow-hover
+        rgba(236, 201, 75, $default-boxshadow-opacity-hover);
     }
   }
   &.green {
     background: $green;
-    box-shadow: 0 7px 20px rgba(72, 187, 120, 0.5);
+    box-shadow: $default-boxshadow
+      rgba(72, 187, 120, $default-boxshadow-opacity);
     &:hover {
-      box-shadow: 0 7px 20px rgba(72, 187, 120, 0.85);
+      box-shadow: $default-boxshadow-hover
+        rgba(72, 187, 120, $default-boxshadow-opacity-hover);
     }
   }
   &.teal {
     background: $teal;
-    box-shadow: 0 7px 20px rgba(56, 178, 172, 0.5);
+    box-shadow: $default-boxshadow
+      rgba(56, 178, 172, $default-boxshadow-opacity);
     &:hover {
-      box-shadow: 0 7px 20px rgba(56, 178, 172, 0.85);
+      box-shadow: $default-boxshadow-hover
+        rgba(56, 178, 172, $default-boxshadow-opacity-hover);
     }
   }
   &.blue {
     background: $blue;
-    box-shadow: 0 7px 20px rgba(66, 153, 225, 0.5);
+    box-shadow: $default-boxshadow
+      rgba(66, 153, 225, $default-boxshadow-opacity);
     &:hover {
-      box-shadow: 0 7px 20px rgba(66, 153, 225, 0.85);
+      box-shadow: $default-boxshadow-hover
+        rgba(66, 153, 225, $default-boxshadow-opacity-hover);
     }
   }
   &.indigo {
     background: $indigo;
-    box-shadow: 0 7px 20px rgba(102, 126, 234, 0.5);
+    box-shadow: $default-boxshadow
+      rgba(102, 126, 234, $default-boxshadow-opacity);
     &:hover {
-      box-shadow: 0 7px 20px rgba(102, 126, 234, 0.85);
+      box-shadow: $default-boxshadow-hover
+        rgba(102, 126, 234, $default-boxshadow-opacity-hover);
     }
   }
   &.purple {
     background: $purple;
-    box-shadow: 0 7px 20px rgba(159, 122, 234, 0.5);
+    box-shadow: $default-boxshadow
+      rgba(159, 122, 234, $default-boxshadow-opacity);
     &:hover {
-      box-shadow: 0 7px 20px rgba(159, 122, 234, 0.85);
+      box-shadow: $default-boxshadow-hover
+        rgba(159, 122, 234, $default-boxshadow-opacity-hover);
     }
   }
   &.pink {
     background: $pink;
-    box-shadow: 0 7px 20px rgba(237, 100, 166, 0.5);
+    box-shadow: $default-boxshadow
+      rgba(237, 100, 166, $default-boxshadow-opacity);
     &:hover {
-      box-shadow: 0 7px 20px rgba(237, 100, 166, 0.85);
+      box-shadow: $default-boxshadow-hover
+        rgba(237, 100, 166, $default-boxshadow-opacity-hover);
     }
   }
   &.top {
