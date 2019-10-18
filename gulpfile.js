@@ -11,6 +11,11 @@ function style() {
   return src("src/*.scss")
     .pipe(sass({ outputStyle: "expanded" }).on("error", sass.logError))
     .pipe(autoprefixer())
+    .pipe(
+      cleanCSS({
+        format: "beautify"
+      })
+    )
     .pipe(dest("dist"));
 }
 
