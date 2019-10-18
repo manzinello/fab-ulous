@@ -1,4 +1,4 @@
-![GitHub Fabulous](./assets/github-fabulous.png)
+![GitHub Fabulous](https://fab-ulous.github.io/github-fabulous.png)
 
 # ⭕️ Fab-ulous (GitHub buttons)
 
