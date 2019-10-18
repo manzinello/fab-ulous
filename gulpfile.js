@@ -9,7 +9,7 @@ sass.compiler = require("node-sass");
 
 function style() {
   return src("src/*.scss")
-    .pipe(sass().on("error", sass.logError))
+    .pipe(sass({ outputStyle: "expanded" }).on("error", sass.logError))
     .pipe(autoprefixer())
     .pipe(dest("dist"));
 }
