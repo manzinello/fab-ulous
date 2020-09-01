@@ -13,7 +13,7 @@ function style() {
     .pipe(autoprefixer())
     .pipe(
       cleanCSS({
-        format: "beautify"
+        format: "beautify",
       })
     )
     .pipe(dest("dist"));
@@ -26,7 +26,7 @@ function styleMin() {
     .pipe(cleanCSS({ compatibility: "ie8" }))
     .pipe(
       rename({
-        suffix: ".min"
+        suffix: ".min",
       })
     )
     .pipe(dest("dist"));
